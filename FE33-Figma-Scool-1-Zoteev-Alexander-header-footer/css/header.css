@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 .header-logo a:hover {
-  color: palevioletred;
+  color: #EC7979;
   transform: scale(1.1);
 }
 .header-logo b:hover {
