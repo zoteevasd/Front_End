@@ -1,6 +1,6 @@
-.awesome {
-  /* background-color: beige; */
-}
+/* .awesome {
+  background-color: beige;
+} */
 .awesome-row {
   display: flex;
   justify-content: space-evenly;

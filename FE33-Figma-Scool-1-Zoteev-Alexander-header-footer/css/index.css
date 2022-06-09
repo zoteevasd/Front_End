@@ -55,11 +55,11 @@ section {
   text-align: center;
   padding: 2px;
 }  */
-.sub-text {
-  /* width: 500px; */
-  /* display: flex; */
-  /* text-align: center; */
-}
+/* .sub-text {
+  width: 500px;
+  display: flex;
+  text-align: center;
+} */
 .sub-text p {
   text-align: center;
   font-size: 14px;
