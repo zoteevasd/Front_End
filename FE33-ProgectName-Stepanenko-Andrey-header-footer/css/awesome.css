@@ -1,0 +1,37 @@
+.awesome {
+    padding: 100px 0;
+}
+
+.awesome-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+.awesome-card {
+    width: 350px;
+    margin: 0 15px;
+}
+.awesome-card-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E72424;
+}
+.awesome-card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.awesome-card-text {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
