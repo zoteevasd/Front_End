@@ -1,10 +1,27 @@
 .footer {
-  padding: 20px 0;
-  background-color: beige;
+  padding: 25px 0;
+  background-color: #000000;
+  width: 100%;
 }
-#footer-title {
-  color: coral;
-  text-align: right;
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* .footer-text {
-} */
+.footer-icons-links {
+  font-size: 20px;
+  transition: 0.2s;
+  margin-right: 15px;
+  /* margin: 0 5px; */
+}
+.copyright {
+  margin-top: 10px;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+
+}
