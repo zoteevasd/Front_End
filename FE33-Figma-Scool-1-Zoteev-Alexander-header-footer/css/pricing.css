@@ -1,0 +1,65 @@
+.pricing {
+  background-color: #F5F5F5;
+}
+.pricing-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.pricing-list {
+    width: 340px;
+    margin: 0 15px;
+    transition: 0.2s;
+/*     display: block;
+    flex-direction: column; */
+}
+.pricing-list:hover{
+    transform: translate(0px, -20px);
+/*     -webkit-box-shadow: -12px -7px 9px -2px rgba(53, 80, 34, 0.23);
+    -moz-box-shadow: -12px -7px 9px -2px rgba(53, 80, 34, 0.23); */
+    box-shadow: -12px -7px 9px -2px rgba(53, 80, 34, 0.23);
+}
+.pricing-tarif {
+    /* font-family: 'Open Sans'; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #333333;
+    margin-bottom: 2px;
+}
+.pricing-cost {
+    font-family: 'Raleway';
+    /* font-style: normal; */
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100px;
+    color: #FFFFFF;
+    background-color: #333333;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.pricing-free {
+    /* font-family: 'Open Sans'; */
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    background-color: #333333;
+    margin-bottom: 4px;
+}
+.pricing-item {
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #86878B;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+}

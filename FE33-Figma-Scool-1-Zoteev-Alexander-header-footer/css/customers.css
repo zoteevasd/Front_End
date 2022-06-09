@@ -1,0 +1,86 @@
+.customers {
+	/* background-color: #F5F5F5; */
+}
+.customers-row {
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.customers-card {
+	width: 298px;
+	margin: 0 15px;
+}
+.customers-card-text {
+	background-color: #E2E2E2;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: left;
+	color: #86878B;
+	padding: 20px;
+	border-radius: 7px;
+	position: relative;
+	}
+.customers-card-text::after {
+	content: "";
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent; 
+	border-right: 10px solid transparent; 
+	border-top: 20px solid #E2E2E2;
+	position: absolute;
+	top: 100%;
+/* 	left: 20px;
+	top: 138px; */
+}
+.customers-card-info {
+	margin-top: 22px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.customers-card-img {
+	width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* border: 1px solid coral; */
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customers-card-img img {
+  width: 100%;
+}
+/* .customers-card-img-donald{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 0 auto 30px;
+	background: url(../img/Donald_Duck.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: inline-block;	
+} */
+
+.customers-card-specialist {
+}
+.name {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	display: block;
+	text-align: right;
+
+}
+.job {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #86878B;
+	display: block;
+	text-align: right;
+}
