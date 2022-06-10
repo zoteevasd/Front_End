@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"autoprefixer.findExternalAutoprefixer": true,
+		"autoprefixer.formatOnSave": true,
+		"autoprefixer.ignoreFiles": [
+
+		
+		],
+		"autoprefixer.options": {
+		
+		}
+	}
+}

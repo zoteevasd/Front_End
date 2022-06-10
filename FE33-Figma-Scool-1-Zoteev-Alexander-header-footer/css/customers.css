@@ -3,9 +3,9 @@
 } */
 .customers-row {
 	display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 -15px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 -15px;
 }
 .customers-card {
 	width: 298px;
