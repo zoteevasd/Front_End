@@ -5,6 +5,7 @@
 }
 .social-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 0 -15px;
@@ -27,15 +28,15 @@
 .social-icons {
     width: 684px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin: 0 15px;
 }
 .social-icons-links {
     font-size: 42px;
-    transition: 0.2s;
 }
 .fa-brands {
+    transition: 0.2s;
     color: #86878B;
 }
 .fa-facebook-f {
