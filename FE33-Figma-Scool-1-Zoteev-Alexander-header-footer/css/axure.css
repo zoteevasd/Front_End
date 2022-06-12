@@ -50,11 +50,12 @@
     margin-bottom: 57px;
 }
 .axure-btn {
+    font-family: "Open Sans";
+	font-weight: 400;
     display: block;
     margin: auto;
     width: 135px;
     border: 1px solid #FFFFFF;
-    font-weight: 600;
     font-size: 15px;
     line-height: 40px;
     text-align: center;

@@ -40,17 +40,23 @@
   color: #FFFFFF;
   transform: scale(1.1);
 }
-/* .navigation {
-} */
+.navigation {
+  /* font-family: "Open Sans"; */
+  /* font-weight: 400; */
+}
 .navigation-list {
+/*   font-family: "Open Sans";
+  font-weight: 400; */
   width: 489px;
   display: flex;
   justify-content: space-between;
 }
 .navigation-list-item a {
+  /* font-family: "Open Sans"; */
+  font-weight: 400;
   display: inline-block;
   font-size: 15px;
-  font-weight: 600;
+  /* font-weight: 600; */
   color: #FFFFFFB2;
 }
 .navigation-list-item a:hover {
