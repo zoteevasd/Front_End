@@ -63,4 +63,7 @@
 }
 .contacts-btn:hover {
 	cursor: pointer;
+	color: rgb(23, 23, 23);
+	transform: scale(0.8);
+	transition: 1.8s;
 }

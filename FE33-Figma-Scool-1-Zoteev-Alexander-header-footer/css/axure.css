@@ -63,3 +63,8 @@
     background-color: rgba(28,28,28,0);
     cursor: pointer;
 }
+.axure-btn:hover {
+    /* color: rgb(23, 23, 23); */
+	transform: scale(1.1);
+	transition: 0.8s;
+}
