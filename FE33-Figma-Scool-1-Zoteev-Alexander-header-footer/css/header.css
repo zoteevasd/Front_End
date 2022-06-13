@@ -61,6 +61,6 @@
 }
 .navigation-list-item a:hover {
   color: rgb(126, 72, 212);
-  transform: scale(1.3);
-  transition: 0.8s;
+  transform: scale(1.1);
+  transition: 0.5s;
 }

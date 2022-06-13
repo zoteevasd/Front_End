@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin: 0 -15px 68px;
+	margin: 0 -15px 30px;
 	align-items: flex-start;
 }
 .contacts-block {
@@ -19,8 +19,9 @@
    color: #BDBDBD;
 }
 .contacts-block-item input {
+	font-family: "Raleway";
 	margin-bottom: 40px;
-	font-size: 25px;
+	font-size: 20px;
 	border: none;
    border-bottom: 1px solid #BDBDBD;
    /* display: block; */
@@ -32,20 +33,27 @@
 } */
 .contacts-area {
 	margin: 0 15px;
-	width: 478px;
-	/* height: 224px; */
-   font-weight: 400;
    font-size: 14px;
-   /* line-height: 19px; */
+   font-weight: 400;
    color: #BDBDBD;
+	/* width: 478px; */
+	/* height: 293px; */
+	/* resize: none; */
+   /* line-height: 19px; */
 }
 .contacts-area textarea{
 	/* margin-bottom: 40px; */
-	font-size: 26px;
+	font-family: "Raleway";
+	font-size: 18px;
 	border: none;
    border-bottom: 1px solid #BDBDBD;
-   /* display: block; */
-   width: 100%;
+	width: 478px;
+	height: 193px;
+   display: block;
+	resize: none;
+	/* resize: horizontal; */
+	/* resize: vertical; */
+   /* width: 100%; */
 	outline: none;
 }
 .contacts-btn {
@@ -64,6 +72,6 @@
 .contacts-btn:hover {
 	cursor: pointer;
 	color: rgb(23, 23, 23);
-	transform: scale(0.8);
-	transition: 1.8s;
+	transform: scale(0.9);
+	transition: 0.5s;
 }
