@@ -13,6 +13,12 @@
 		],
 		"autoprefixer.options": {
 		
-		}
+		},
+		"AllAutocomplete.cycleOpenDocumentsOnLaunch": true,
+		"AllAutocomplete.showCurrentDocument": false,
+		"AllAutocomplete.wordListFiles": [
+		
+		],
+		"AllAutocomplete.showOpenDocuments": false
 	}
 }
