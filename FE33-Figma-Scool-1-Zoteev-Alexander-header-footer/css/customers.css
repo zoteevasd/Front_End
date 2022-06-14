@@ -10,6 +10,9 @@
 .customers-card {
 	width: 298px;
 	margin: 0 15px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
 }
 .customers-card-text {
 	background-color: #E2E2E2;
