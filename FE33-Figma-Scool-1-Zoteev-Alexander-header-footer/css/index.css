@@ -1,5 +1,6 @@
 @import url("../css/cdn.css");
 @import url("../css/header.css");
+@import url("../css/forms.css");
 @import url("../css/social.css");
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
@@ -68,4 +69,18 @@ section {
   /* font-family: "Open Sans"; */
   color: #86878B;
   margin-bottom: 34px;
+}
+.letter {
+  /*   font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px; */
+  color: #FFFFFF;
+}
+.seclet {
+  /*   font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px; */
+  color: #EC7979;
 }

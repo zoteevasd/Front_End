@@ -1,0 +1,27 @@
+.footer {
+    padding: 25px 0;
+    background-color: #000000;
+    width: 100%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 317px;
+    margin: auto;
+}
+.footer-icons-links {
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.copyright{
+    margin-top: 10px;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}

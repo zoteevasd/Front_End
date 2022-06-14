@@ -8,20 +8,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.letter {
-  font-family: 'Raleway';
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
-  color: #FFFFFF;
-}
-.seclet {
-  font-family: 'Raleway';
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 35px;
-  color: #EC7979;
-}
+
 .header-logo a, b {
   display: inline-block;
   font-size: 30px;
