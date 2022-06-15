@@ -17,10 +17,10 @@
    font-size: 14px;
    line-height: 19px;
    color: #BDBDBD;
+	margin-bottom: 40px;
 }
 .contacts-block-item input {
 	font-family: "Raleway";
-	margin-bottom: 40px;
 	font-size: 20px;
 	border: none;
    border-bottom: 1px solid #BDBDBD;
@@ -28,6 +28,12 @@
    width: 100%;
 	outline: none;
 }
+.contacts-block-item:last-child{
+	margin-bottom: 0;
+}
+/* .contacts-block-item input:password {
+	margin-bottom: 0px;
+} */
 /* .contacts-block-item input:focus {
 	outline: none;
 } */
@@ -68,6 +74,7 @@
 	font-size: 15px;
 	line-height: 20px;
 	color: #FFFFFF;
+	margin-top: 68px;
 }
 .contacts-btn:hover {
 	cursor: pointer;

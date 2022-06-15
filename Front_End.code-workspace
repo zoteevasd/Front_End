@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\lesson-7"
 		}
 	],
 	"settings": {

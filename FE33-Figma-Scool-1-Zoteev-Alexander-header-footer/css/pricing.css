@@ -63,3 +63,6 @@
     background-color: #FFFFFF;
     margin-bottom: 4px;
 }
+.pricing-item:last-child{
+    margin-bottom: 0px;
+}
