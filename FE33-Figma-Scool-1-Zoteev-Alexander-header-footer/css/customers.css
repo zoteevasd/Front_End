@@ -12,7 +12,7 @@
 	margin: 0 15px;
 	display: flex;
 	flex-direction:column;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 .customers-card-text {
 	background-color: #E2E2E2;
@@ -21,10 +21,10 @@
 	line-height: 19px;
 	text-align: left;
 	color: #86878B;
+	flex-grow: 1;
 	padding: 20px;
 	border-radius: 7px;
 	position: relative;
-	flex-grow: 1;
 	}
 .customers-card-text::after {
 	content: "";

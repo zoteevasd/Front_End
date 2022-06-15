@@ -4,7 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\lesson-7"
+			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\Lesson8\\lesson-8-adaptive"
+		},
+		{
+			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\Lesson8\\lesson-8.1-animation"
 		}
 	],
 	"settings": {
@@ -22,6 +25,7 @@
 		"AllAutocomplete.wordListFiles": [
 		
 		],
-		"AllAutocomplete.showOpenDocuments": false
+		"AllAutocomplete.showOpenDocuments": false,
+		"liveServer.settings.multiRootWorkspaceName": "Front_End"
 	}
 }
