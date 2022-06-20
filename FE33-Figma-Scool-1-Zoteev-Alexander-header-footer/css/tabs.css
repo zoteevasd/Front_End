@@ -5,10 +5,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 -15px;
+	justify-content: space-between;
 }	
 
 .tabs-header {
-	margin: 0 88px 0 15px;
+	margin: 0 38px 0 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	
 }
 .tabs-item {
@@ -24,15 +28,16 @@
 	font-weight: 700;
 	font-size: 15px;
 	cursor: pointer;
-
-
 	/* margin: auto; */
 	/* flex-direction: column; */
 	/* align-items: center; */
-
 }
-.tabs-item:hover {
+.tabs-item.active {
 	background-color: #EC7979;
+}
+
+.tabs-item:hover {
+	background-color: #e43535;
 
 }
 .tabs-item:nth-child(1) {
@@ -52,30 +57,49 @@
 	margin-bottom: 200; */
 }
 .tabs-item:last-child {
-	/* margin-bottom: 0px; */
+	margin-bottom: 0px;
 }
 
 .tabs-content {
-	max-width: 555px;
+	/* width: 950px; */
 	/* max-height: 300px; */
+	/* justify-content: flex-start; */
 	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	margin: 0 72px 0 0;
+	flex-wrap: wrap;
+	/* flex-direction: column; */
+	/* flex-direction: row; */
 	/* justify-content: space-between; */
+	margin: 0 40px 0 0;
 	/* flex-grow: 1; */
 	}
-.tabs-content__item {
-	/* flex-grow: 1; */
-	}
+
 .tabs-content div {
 	background-color: #FFFFFF;
 }
 .tabs-content__item {
+	display: flex;
+	width: 950px;
+	flex-wrap: wrap;
+	/* flex-direction: row; */
+	justify-content: space-between;
+	/* flex-grow: 1; */
+}
+
+.tabs-content__item.active {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 14px;
-
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* justify-content: space-between; */
+	/* flex-grow: 1; */
+}
+.tabs-left-content {
+	width: 572px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	transition-duration: 0.3s;
 }
 .tabs-title {
 	margin-bottom: 58px;
@@ -85,7 +109,7 @@
 }
 
 .tabs-content__item:nth-child(1) {
-	display: block;
+	/* display: block; */
 }
 .tabs-content__item:nth-child(2) {
 	display: none;
@@ -94,16 +118,18 @@
 	display: none;
 }
 
-.active {
+/* .active {
 	background-color: #EC7979;
-}
+} */
 
 .tabs-img {
+	margin: 0 15px 0 0;
 	display: block;
-	/* margin: 30px 0 0 80px; */
+	/* flex-wrap: wrap; */
 	width: 320px;
 	height: 253px;
 	overflow: hidden;
+	/* margin: 30px 0 0 80px; */
 }
 
 .tabs-btn {
@@ -117,8 +143,8 @@
 	font-size: 15px;
 	line-height: 20px;
 	color: #FFFFFF;
-	margin-top: 90px;
-	margin-bottom: 30px;
+	/* margin-top: 90px; */
+	/* margin-bottom: 30px; */
 }
 .tabs-btn:hover {
 	cursor: pointer;
