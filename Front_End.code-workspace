@@ -4,7 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\Aleksandr-FE33onl-main"
+			"path": "..\\..\\lesson-9-sass"
+		},
+		{
+			"path": "..\\.."
 		}
 	],
 	"settings": {
