@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "..\\..\\lesson-9-sass"
-		},
-		{
-			"path": "..\\.."
 		}
 	],
 	"settings": {
