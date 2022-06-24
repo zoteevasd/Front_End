@@ -41,8 +41,8 @@
 	margin-bottom: 71px;
 }
 .forms-title::after {
-	content: "";
 	/* margin: auto; */
+	content: "";
 	width: 64px;
 	height: 1px;
 	background-color: #FFFFFF;
