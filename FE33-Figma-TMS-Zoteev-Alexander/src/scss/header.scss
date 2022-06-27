@@ -94,7 +94,7 @@
 		// display: inline-block;
 		// padding-bottom: 30px;
 		text-align: center;
-		line-height: 15px;
+		// line-height: 15px;
 		transition: 0.2s;
 		&::after {
 			// content: "";
@@ -108,19 +108,15 @@
 			// margin-bottom: 34px;
 		 }
 		&:hover {
-			/* 	margin: auto;
-			height: 1px;
-		background-color: #E72424;
-		display: block; */
 		// content: "";
 		// margin: auto;
 		// margin: 0 15px;
 		// display: block;
 		// display: inline-block;
 		// color: $_white;
-		// width: 100%;
+		// width: 120%;
 		// width: 120px;
-		border-bottom: 5px solid $_grey;
+		border-bottom: 3px solid $_grey;
 		padding-bottom: 32px;
 		// margin-bottom: 34px;
 		// transform: scale(1.1);
