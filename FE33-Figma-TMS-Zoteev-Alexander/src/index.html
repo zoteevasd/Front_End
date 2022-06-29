@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./scss/index.scss">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <title>TMS-front</title>
 </head>
 
@@ -35,7 +36,7 @@
     </div>
   </header>
 
-  <section class='testimonials'>
+<!--   <section class='testimonials'>
     <div class='container'>
       <div class="testimonials-row">
         <div class="testimonials-column">
@@ -54,9 +55,49 @@
           </div>
         </div>
       </div>
+   </section> -->
+
+   <section class="slider">
+    <div class="image-slider swiper-container">
+       <div class="image-slider__wrapper swiper-wrapper">
+          <div class="image-slider__slide swiper-slide">
+              <div class="image-slider__slide__row">
+                  <div class="image-slider__image">
+                      <img src="./img/slider/1bg.jpg" alt="pict">
+                  </div>
+                  <div class="image-slider__body">
+                          <h3>“Integer posuere erat a ante<br> venenatis dapibus posuere velit<br> aliquet. Donec sed odio dui.<br> Aenean eu leo quam...”</h3>
+                            <p>Susan Sims, Interaction Designer at XYZ</p>
+                  </div> 
+              </div>
+            
+            </div>
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img src="./img/slider/2bg.jpg" alt="pict">
+                </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img src="./img/slider/1bg.jpg" alt="pict">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+        </div>
+            <div class="slider-title">
+                <h3>Are You Ready to Start? Download Now For Free!</h3>
+            </div>
+            <div class="slider-podtext">
+                <p>Fusce dapibus, tellus ac cursus commodo</p>
+            </div>
+       <button class="btn">DOWNLOAD HERE</button>
+    </div>
    </section>
+   
 
 
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> 
   <script type="module" src="./js/index.js"></script>
 </body>
 
