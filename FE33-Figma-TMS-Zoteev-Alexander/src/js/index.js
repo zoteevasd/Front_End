@@ -16,6 +16,7 @@ if (iconMenu){
 
 new Swiper('.image-slider',{
     pagination: {
+        // el: '.swiper-scrollbar',
         el: '.swiper-pagination',
         clickable:true,
         dynamicBullets: true,
