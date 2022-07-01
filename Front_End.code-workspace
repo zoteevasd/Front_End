@@ -7,7 +7,7 @@
 			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\Stepanenko-Project-ActiveBox-header"
 		},
 		{
-			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\lesson-12"
+			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\Stepanenko-Project-ActiveBox-footer"
 		}
 	],
 	"settings": {
@@ -26,6 +26,6 @@
 		
 		],
 		"AllAutocomplete.showOpenDocuments": false,
-		"liveServer.settings.multiRootWorkspaceName": "lesson-12"
+		"liveServer.settings.multiRootWorkspaceName": "ThemeDisign"
 	}
 }
