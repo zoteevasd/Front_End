@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\Stepanenko-Project-ActiveBox-footer"
+		},
+		{
+			"path": "..\\..\\..\\..\\Зотеев\\Swift\\Курсы IT\\Teachmeskills\\Neon-Button"
 		}
 	],
 	"settings": {
@@ -26,6 +29,6 @@
 		
 		],
 		"AllAutocomplete.showOpenDocuments": false,
-		"liveServer.settings.multiRootWorkspaceName": "ThemeDisign"
+		"liveServer.settings.multiRootWorkspaceName": "Neon-Button"
 	}
 }

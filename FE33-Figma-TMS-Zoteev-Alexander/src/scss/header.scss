@@ -169,32 +169,10 @@
 	transition: 0.2s;
 }
 
-.headerbtn2 {
-	width: 100%;
-	min-height: 100vh;
-	color: #efe;
-	background: #182848;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 
-		.btn2 {
-			border: none;
-			position: relative;
-			border-radius: 10px;
-			cursor: pointer;
-			// background: #182848;
-			padding: 2em 4em;
-			font-family: sans-serif;
-		}
-		a {
-			text-decoration: none;
-			font-size: clamp(1.5rem, 2.5vw, 2.5rem);
-			background: linear-gradient(-45deg, #ff00c1, #00fff9);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
-}
+
+
+
 
 
 
